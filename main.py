@@ -25,8 +25,12 @@ while game_is_on:
     car_manager.generate_car()
     car_manager.move_car()
     for car in car_manager.cars:
-        if player.distance(car) < 20:
+        if player.distance(car) < 30:
             game_is_on = False
+
+    if player.restart:
+        car_manager.level_up()
+        player.restart = False
 
 
 

@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# Local configuration files
+.idea/
+
+# Compiled Python files
+*.pyc
+
+# Python bytecode cache
+*.pyo
+
+# macOS files to ignore
+.DS_Store
+
+# PyCharm
+*.iml
+
+
+# Virtual environments
+.env/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/

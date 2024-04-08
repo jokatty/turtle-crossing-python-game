@@ -39,5 +39,3 @@ while game_is_on:
         player.restart = False
 
 screen.exitonclick()
-
-
